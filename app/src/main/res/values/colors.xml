@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blueItem">#27408b</color>
+    <color name="blueHeader">#0000ff</color>
+    <color name="bckBlue">#cae1ff</color>
+    <color name="blueSubHeader">#4169E1</color>
+    <color name="red">#FF0000</color>
+</resources>

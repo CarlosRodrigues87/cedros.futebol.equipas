@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTabelaCabecalho"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bckBlue"
+    android:lines="1"
+    android:orientation="horizontal" >
+	
+    <TextView
+        android:id="@+id/txtOrderClassifcation"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/orderClassification"
+        android:textColor="@color/blueSubHeader"
+        android:textSize="22sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtViewPlayer"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/player"
+        android:textColor="@color/blueSubHeader"
+        android:textSize="22sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtViewGames"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/games"
+        android:textColor="@color/blueSubHeader"
+        android:textSize="22sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtViewVictory"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/victory"
+        android:textColor="@color/blueSubHeader"
+        android:textSize="22sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtViewDraw"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/draw"
+        android:textColor="@color/blueSubHeader"
+        android:textSize="22sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtViewLosses"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/losses"
+        android:textColor="@color/blueSubHeader"
+        android:textSize="22sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtViewPoints"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/points"
+        android:textColor="@color/blueSubHeader"
+        android:textSize="22sp" >
+    </TextView>
+
+</LinearLayout>

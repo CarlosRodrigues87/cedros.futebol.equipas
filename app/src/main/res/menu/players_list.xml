@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+   
+	 <item
+        android:id="@+id/random"
+        android:icon="@drawable/ic_menu_random"
+        android:orderInCategory="1"
+        android:title="@string/menuitem_random"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:orderInCategory="2"
+        android:title="@string/menuitem_refresh"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/addPlayer"
+        android:icon="@drawable/ic_menu_add_player"
+        android:orderInCategory="3"
+        android:title="@string/menuitem_addPlayer"
+        app:showAsAction="always"/>
+    
+     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+
+</menu>

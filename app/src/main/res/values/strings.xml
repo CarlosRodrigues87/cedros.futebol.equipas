@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Futebol Cedros</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="action_settings">Definições</string>
+    <string name="open">Jogadores</string>
+    <string name="close">Vinho de cartão</string>
+    <string name="player">Jogador</string>
+    <string name="strength">Força</string>
+    <string name="playerListFcc">Lista de jogadores do FCC</string>
+    <string name="orderClassification">#</string>
+    <string name="games">J</string>
+    <string name="victory">V</string>
+    <string name="draw">E</string>
+    <string name="losses">D</string>
+    <string name="percent">%</string>
+    <string name="points">P</string>
+    <string name="classificationTable">Tabela classificativa</string>
+    <string name="statistic">Estatística</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Jogadores</item>
+        <item>Classificação</item>
+        <item>Sobre</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_classification</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+    <string-array name="menu">
+        <item>Perfil</item>
+        <item>Apagar</item>
+    </string-array>
+
+    <string name="delete">Apagar</string>
+    <string name="profile">Perfil</string>
+    <string name="menuitem_refresh">Actualizar</string>
+    <string name="menuitem_addPlayer">Adicionar jogador</string>
+    <string name="menuitem_random">Gerar equipas</string>
+    <string name="menuitem_import">Actualizar classificação</string>
+    <string name="menuitem_filter">Filtrar classificação</string>
+    <string name="filter_percent">Percentagem</string>
+    <string name="filter_points">Pontos</string>
+    <string name="title_activity_players_list">Jogadores</string>
+    <string name="title_activity_classification">Classificação</string>
+    <string name="title_activity_generate_teams">Gerar equipa</string>
+    <string name="title_activity_add_player">Adicionar jogador</string>
+    <string name="newPlayerLabel">Dados novo jogador</string>
+    <string name="name">Nome</string>
+    <string name="strengthHint"><i>77</i></string>
+    <string name="nameHint"><i>Carlos</i></string>
+    <string name="saveLabel">Guardar</string>
+    <string name="clearLabel">Limpar</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="edit">Editar</string>
+    <string name="playerPhoto">Foto jogador</string>
+	
+</resources>

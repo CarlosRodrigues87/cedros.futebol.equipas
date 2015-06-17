@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bckBlue"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="10" >
+
+    <TextView
+        android:id="@+id/txtViewItemOrder"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+          android:layout_marginLeft="18dp"
+        android:textColor="@color/red"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtViewItemGame"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:gravity="left"
+        android:textColor="@color/blueItem"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtViewItemWins"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:gravity="left"
+        android:textColor="@color/blueItem"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtViewItemDraw"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:gravity="left"
+        android:textColor="@color/blueItem"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtViewItemLosses"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:gravity="left"
+        android:textColor="@color/blueItem"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtViewItemPoints"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:gravity="left"
+        android:textColor="@color/blueItem"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtViewItemPercent"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:gravity="left"
+        android:textColor="@color/blueItem"
+        android:textSize="22sp" />
+
+</LinearLayout>

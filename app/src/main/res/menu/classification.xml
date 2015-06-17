@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_import"
+        android:icon="@drawable/ic_action"
+        android:orderInCategory="1"
+        android:title="@string/menuitem_import"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_action_filter"
+        android:orderInCategory="2"
+        android:title="@string/menuitem_filter"
+        app:showAsAction="always">
+    <menu>
+	     <item
+	        android:id="@+id/action_filter_percent"
+	        android:icon="@drawable/ic_percent"
+	        android:orderInCategory="2"
+	        android:title="@string/filter_percent"
+	        app:showAsAction="never"/>
+	     
+	     <item
+	        android:id="@+id/action_filter_points"
+	        android:icon="@drawable/ic_points"
+	        android:orderInCategory="2"
+	        android:title="@string/filter_points"
+	        app:showAsAction="never"/>
+    </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
