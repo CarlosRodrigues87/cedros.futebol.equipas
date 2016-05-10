@@ -78,7 +78,7 @@ public class ClassificationActivity extends BaseActivity {
 	 */
 	private void mockado(List<Classification> classificationList) {
 		class0.setOrder(1);
-		class0.setPlayer("André");
+		class0.setPlayer("AndrÃ©");
 		class0.setGames(32);
 		class0.setWins(18);
 		class0.setDraws(4);
@@ -179,7 +179,7 @@ public class ClassificationActivity extends BaseActivity {
 		classificationList.add(class9);
 
 		class10.setOrder(11);
-		class10.setPlayer("Sérgio");
+		class10.setPlayer("SÃ©rgio");
 		class10.setGames(26);
 		class10.setWins(9);
 		class10.setDraws(3);

@@ -52,7 +52,7 @@ public class PlayersListActivity extends BaseActivity {
 
 		set(navMenuTitles, navMenuIcons);
 
-		player.setPlayer("André");
+		player.setPlayer("AndrÃ©");
 		player.setStrength(38);
 		playersList.add(player);
 
@@ -88,7 +88,7 @@ public class PlayersListActivity extends BaseActivity {
 		player9.setStrength(89);
 		playersList.add(player9);
 		
-		player10.setPlayer("Sérgio");
+		player10.setPlayer("SÃ©rgio");
 		player10.setStrength(30);
 		playersList.add(player10);
 		

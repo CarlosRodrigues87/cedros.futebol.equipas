@@ -66,7 +66,7 @@ public class AddPlayerActivity extends BaseActivity {
 				
 				if (!isValidPlayerName(name)) {
 					txtViewPlayerNameError.setError("Erro testes");
-					txtViewPlayerNameError.setText("Nome inválido");
+					txtViewPlayerNameError.setText("Nome invÃ¡lido");
 				} else {
 					txtViewPlayerNameError.setError(null);
 					txtViewPlayerNameError.setText("");
@@ -74,7 +74,7 @@ public class AddPlayerActivity extends BaseActivity {
 				
 				if (!isValidStrength(strengthInt)) {
 					txtViewStrengthError.setError("");
-					txtViewStrengthError.setText("Força inválida");	
+					txtViewStrengthError.setText("ForÃ§a invÃ¡lida");
 				} else {
 					txtViewStrengthError.setError(null);
 					txtViewStrengthError.setText("");
@@ -101,7 +101,7 @@ public class AddPlayerActivity extends BaseActivity {
 				final String name = edtTextPlayerName.getText().toString();
 				if (!isValidPlayerName(name) && name.length() > 0) {
 					txtViewPlayerNameError.setError("");
-					txtViewPlayerNameError.setText("Nome inválido");
+					txtViewPlayerNameError.setText("Nome invÃ¡lido");
 				} else {
 					txtViewPlayerNameError.setError(null);
 					txtViewPlayerNameError.setText("");
@@ -135,7 +135,7 @@ public class AddPlayerActivity extends BaseActivity {
 				
 				if (!isValidStrength(strengthInt) && strength.length() > 0) {
 					txtViewStrengthError.setError("");
-					txtViewStrengthError.setText("Força inválida");
+					txtViewStrengthError.setText("ForÃ§a invÃ¡lida");
 				} else {
 					txtViewStrengthError.setError(null);
 					txtViewStrengthError.setText("");
